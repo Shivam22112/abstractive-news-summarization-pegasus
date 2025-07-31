@@ -1,1 +1,1 @@
-"An end-to-end NLP project fine-tuning PEGASUS for abstractive summarization of English news articles."
+Developed an end-to-end abstractive news summarization system by fine-tuning the PEGASUS Transformer on large-scale English news datasets. Implemented robust pipelines for data cleaning, tokenization, and seq2seq model training. Evaluated summaries using ROUGE metrics and deployed a real-time Streamlit application for interactive summarization.
