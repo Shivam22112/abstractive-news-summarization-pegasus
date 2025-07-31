@@ -1,1 +1,1 @@
-# Abstractive_News_Summarization_using_PEGASUS_Transformer
+"An end-to-end NLP project fine-tuning PEGASUS for abstractive summarization of English news articles."
