@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)  
 [![HuggingFace](https://img.shields.io/badge/Transformers-PEGASUS-orange.svg)](https://huggingface.co/transformers/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)  
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
+
 
 A complete pipeline for **abstractive news summarization** using the **PEGASUS transformer**.  
 Includes **data preprocessing, tokenization, model fine-tuning, evaluation, and a Streamlit-powered web app** for real-time summarization.  
