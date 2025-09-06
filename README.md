@@ -1,22 +1,30 @@
-PEGASUS News Summarization 📰✨
+# 📰 PEGASUS News Summarization  
 
-A complete pipeline for abstractive news summarization using the PEGASUS transformer.
-Includes data preprocessing, tokenization, model fine-tuning, evaluation, and a Streamlit-powered web app for real-time summarization.
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)  
+[![HuggingFace](https://img.shields.io/badge/Transformers-PEGASUS-orange.svg)](https://huggingface.co/transformers/)  
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)  
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
-🚀 Project Overview
+A complete pipeline for **abstractive news summarization** using the **PEGASUS transformer**.  
+Includes **data preprocessing, tokenization, model fine-tuning, evaluation, and a Streamlit-powered web app** for real-time summarization.  
 
-This project fine-tunes the google/pegasus-xsum model on English news articles.
-Key highlights:
+---
 
-✅ Robust text cleaning & preprocessing
+## 🚀 Project Overview  
 
-✅ Tokenization and efficient sequence-to-sequence training
+This project fine-tunes the **`google/pegasus-xsum`** model on English news articles.  
 
-✅ Performance evaluation with ROUGE metrics
+### 🔑 Key Features:
+- ✅ Robust text cleaning & preprocessing  
+- ✅ Tokenization and efficient sequence-to-sequence training  
+- ✅ Performance evaluation with **ROUGE metrics**  
+- ✅ Ready-to-use **Streamlit demo app** for generating summaries  
 
-✅ Ready-to-use Streamlit demo app for generating summaries
+---
 
-📂 Project Structure
+## 📂 Project Structure  
+
+```text
 PEGASUS-News-Summarization/
 ├── App/
 │   └── streamlit_pegasus_app.py         # Streamlit app for interactive summarization
@@ -44,8 +52,7 @@ PEGASUS-News-Summarization/
 ├── requirements.txt                     # Dependencies
 └── README.md                            # Project info & instructions
 
-
----
+```
 
 ## 📊 Dataset & Trained Model  
 
@@ -60,7 +67,6 @@ Since the dataset and model are large, they are provided via Google Drive:
   ➡️ Place inside `Models/` after unzipping  
 
 ---
-
 
 ## Contributors
 
